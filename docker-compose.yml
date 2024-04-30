@@ -1,0 +1,6 @@
+﻿services:
+  harlok.vendingmachine:
+    image: harlok.vendingmachine
+    build:
+      context: .
+      dockerfile: Harlok.VendingMachine/Dockerfile
